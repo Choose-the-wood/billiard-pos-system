@@ -6,6 +6,7 @@ node_modules/
 # Production build
 dist/
 build/
+assets/
 
 # Environment variables
 .env
@@ -17,6 +18,7 @@ build/
 # IDE
 .vscode/
 .idea/
+.codebuddy/
 *.swp
 *.swo
 
