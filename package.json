@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "dev:proxy": "node proxy-server-qwen-sdk.cjs",
+    "dev:proxy": "nodemon --watch .env --watch proxy-server-qwen-sdk.cjs --ext cjs,env --exec \"node proxy-server-qwen-sdk.cjs\"",
     "dev:all": "concurrently \"npm run dev:proxy\" \"npm run dev\" --names \"PROXY,VITE\" --prefix-colors \"blue,green\"",
     "start": "npm run dev:all"
   },
@@ -76,6 +76,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "concurrently": "^9.2.0",
     "eslint": "^8.56.0",
+    "nodemon": "^3.1.10",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5",
