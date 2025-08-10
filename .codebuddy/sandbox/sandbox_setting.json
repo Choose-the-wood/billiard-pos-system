@@ -1,0 +1,20 @@
+{
+  "path": "/Users/zemu/Desktop/aiAdmin/billiard-pos-system/billiard-pos-system",
+  "desc": "这是一个智能台球厅收银系统，具有语音识别开台、AI助手聊天、收银台管理等功能。支持腾讯云语音识别和通义千问AI服务，可以通过自然语言进行台桌管理操作。",
+  "id": "e158cb92042a4efd8d8d3470eed8884a",
+  "data": {
+    "spaceKey": "e158cb92042a4efd8d8d3470eed8884a",
+    "connections": {
+      "webIDE": "https://e158cb92042a4efd8d8d3470eed8884a.ap-singapore.cloudstudio.club",
+      "preview": "https://e158cb92042a4efd8d8d3470eed8884a--{port}.ap-singapore.cloudstudio.club",
+      "api": "https://e158cb92042a4efd8d8d3470eed8884a--api.ap-singapore.cloudstudio.club",
+      "pty": "https://e158cb92042a4efd8d8d3470eed8884a--pty.ap-singapore.cloudstudio.club"
+    }
+  },
+  "config": {
+    "api": "https://e158cb92042a4efd8d8d3470eed8884a--api.ap-singapore.cloudstudio.club",
+    "pty": "https://e158cb92042a4efd8d8d3470eed8884a--pty.ap-singapore.cloudstudio.club",
+    "region": "ap-shanghai",
+    "spaceKey": "e158cb92042a4efd8d8d3470eed8884a"
+  }
+}
